@@ -1,0 +1,5 @@
+Model,RMSE (nM),MAE (nM),R²
+Random Forest,16948.63,5771.12,0.1705
+XGBoost,18699.76,5679.54,-0.0098
+Linear Regression,20617.38,9119.16,-0.2275
+Ridge Regression,20361.05,8983.71,-0.1972
