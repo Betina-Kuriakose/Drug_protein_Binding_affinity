@@ -20,9 +20,6 @@ from sklearn.model_selection import cross_val_score, KFold
 import warnings
 warnings.filterwarnings('ignore')
 
-# Set project directory
-project_dir = r"C:\Users\Betina Kuriakose\OneDrive\Desktop\Drug_protein_binding_affinity"
-os.chdir(project_dir)
 
 def load_features(filepath='dataset/features.csv'):
     """Load feature matrix"""

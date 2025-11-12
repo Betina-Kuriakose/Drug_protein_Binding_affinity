@@ -15,9 +15,6 @@ import seaborn as sns
 import os
 from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
 
-# Set project directory
-project_dir = r"C:\Users\Betina Kuriakose\OneDrive\Desktop\Drug_protein_binding_affinity"
-os.chdir(project_dir)
 
 # Set style
 plt.style.use('seaborn-v0_8')

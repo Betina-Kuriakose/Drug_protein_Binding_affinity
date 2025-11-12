@@ -15,9 +15,6 @@ from rdkit.Chem.Fingerprints import FingerprintMols
 from rdkit import DataStructs
 import os
 
-# Set project directory
-project_dir = r"C:\Users\Betina Kuriakose\OneDrive\Desktop\Drug_protein_binding_affinity"
-os.chdir(project_dir)
 
 def smiles_to_mol(smiles):
     """Convert SMILES string to RDKit molecule object"""

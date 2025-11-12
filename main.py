@@ -24,9 +24,6 @@ from feature_engineering import combine_features
 from models import train_all_models, compare_models, save_model
 from evaluation import create_evaluation_report
 
-# Set project directory
-project_dir = r"C:\Users\Betina Kuriakose\OneDrive\Desktop\Drug_protein_binding_affinity"
-os.chdir(project_dir)
 
 def main():
     """Main pipeline execution"""

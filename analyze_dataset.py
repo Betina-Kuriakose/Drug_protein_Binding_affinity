@@ -2,9 +2,6 @@ import pandas as pd
 import numpy as np
 import os
 
-# Change to the project directory
-project_dir = r"C:\Users\Betina Kuriakose\OneDrive\Desktop\Drug_protein_binding_affinity"
-os.chdir(project_dir)
 
 # Read the dataset
 df = pd.read_csv('dataset/binding_affinity_data.csv')

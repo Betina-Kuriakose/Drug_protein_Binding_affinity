@@ -14,9 +14,6 @@ import numpy as np
 import os
 from sklearn.model_selection import train_test_split
 
-# Set project directory
-project_dir = r"C:\Users\Betina Kuriakose\OneDrive\Desktop\Drug_protein_binding_affinity"
-os.chdir(project_dir)
 
 def load_data(filepath='dataset/binding_affinity_data.csv'):
     """Load the binding affinity dataset"""
