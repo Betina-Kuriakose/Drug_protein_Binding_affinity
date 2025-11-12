@@ -1,24 +1,16 @@
 import pandas as pd
 import os
 
-# Change to the project directory
-project_dir = r"C:\Users\Betina Kuriakose\OneDrive\Desktop\Drug_protein_binding_affinity"
-os.chdir(project_dir)
-
-# Get the current directory
-current_dir = os.getcwd()
-print(f"Current directory: {current_dir}")
-
 # List files in dataset directory
-dataset_dir = os.path.join(current_dir, 'dataset')
+dataset_dir = './dataset'
 if os.path.exists(dataset_dir):
     print(f"\nFiles in dataset directory:")
     for file in os.listdir(dataset_dir):
         print(f"  - {file}")
 
 # Read TSV file
-tsv_file = os.path.join(current_dir, 'dataset', '4343106D673CD682131D3EBA49C069D1ki.tsv')
-csv_file = os.path.join(current_dir, 'dataset', 'binding_affinity_data.csv')
+tsv_file = './dataset/4343106D673CD682131D3EBA49C069D1ki.tsv'
+csv_file = './dataset/binding_affinity_data.csv'
 
 print(f"\nReading TSV file: {tsv_file}")
 print(f"File exists: {os.path.exists(tsv_file)}")
